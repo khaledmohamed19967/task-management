@@ -28,7 +28,6 @@
     <!-- ---------------------------------------------- -->
     <!--- update and create modal -->
     <!-- ---------------------------------------------- -->
-    {{ itemToEdit }}
     <base-modal
       :modal-title="itemToEdit?.id ? 'Edit Task' : 'Create New Task'"
       @close="toggleModalStatus"
