@@ -1,0 +1,23 @@
+/*
+* ----------------------------
+* Task card wrapper
+* ----------------------------
+*/
+.task-card__wrapper {
+  background: #fff;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.task-card__header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  padding: 0 0 8px 0;
+}
+
+.task-card__actions {
+  display: flex;
+  gap: 4px;
+  margin: 10px 0;
+}
