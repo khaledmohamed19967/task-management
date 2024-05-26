@@ -1,18 +1,19 @@
-# tasks-management
+# Task Management Application
 
-This template should help get you started developing with Vue 3 in Vite.
+This project is a task management application built using Vue 3 and TypeScript. The application allows users to add, view, edit, and delete tasks. Each task has a title, description, and status (e.g., "todo", "in progress", or "done"). Additionally, users can mark tasks as complete. This project aims to showcase skills in web application development with a focus on using modern frontend technologies.
 
-## Recommended IDE Setup
+## Featuers
+- Add new tasks with title, description, and status.
+- View a list of all tasks.
+- Edit existing tasks.
+- Delete tasks.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Technologies Used
+- Vue3
+- TypeScript
 
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## Required
+Node.js (v20.9.0 or later)
 
 ## Project Setup
 
